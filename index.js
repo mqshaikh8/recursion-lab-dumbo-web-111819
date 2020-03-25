@@ -1,4 +1,5 @@
 function printString(myString) {
+<<<<<<< HEAD
     console.log(myString[0]);
   
     if (myString.length > 1) {
@@ -50,3 +51,23 @@ function printString(myString) {
       return includesNumber(myArray.slice(1), myNumber);
     }
   }
+=======
+  console.log(myString[0]);
+ 
+  if (myString.length > 1) {
+    let mySubString = myString.substring(1, myString.length);
+    printString(mySubString);
+  } else {
+    return true;
+  }
+}
+ 
+ function reverseString(s){
+   console.log(s[0])
+   
+ }
+ 
+  // printString("pizza");
+
+
+>>>>>>> b65b92e35ad949fac7a7b21c6e54ecb6366a066e
